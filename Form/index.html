@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        
+        <link rel="stylesheet" href="css/style.css"/>
+        
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+        <!--<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>!-->
+        
+    </head>
+    <body>
+      <div class="wrapper">
+          <header class="header">
+                <div class="container">
+                    <h1 class="header__title">Հայաստանի մեդիաների տվյալների բազա</h1>
+                </div>
+          </header>
+          <div class="content">
+              <form action="#" id="form" class="form__body">
+              <div class="item">
+                  <div class="item__question">Լրատվամիջոցի անվանումը</div>
+                  <input type="text" id="formName" name="name" class="item__textInput" placeholder="Your Answer">
+              </div>
+              <div class="item">
+                <div class="item__question">Լրատվամիջոցի տեսակը</div>
+                    <div class="item__options">
+                        <div class="options__item">
+                            <input type="checkbox" id="tv-check" name="tv" class="item__checkInput">
+                            <label for="tv-check" class="checkLabel">Հեռուստատեսություն</label>
+                        </div>
+                        <div class="options__item">
+                            <input type="checkbox" id="radio-check" name="radio" class="item__checkInput">
+                            <label for="radio-check" class="checkLabel">Ռադիո</label>
+                        </div>
+                        <div class="options__item">
+                            <input type="checkbox" id="newspaper-check" name="newspaper" class="item__checkInput">
+                            <label for="newspaper-check" class="checkLabel">Թերթ</label>
+                        </div>
+                        <div class="options__item">
+                            <input type="checkbox" id="web-check" name="web" class="item__checkInput">
+                            <label for="web-check" class="checkLabel">Վեբ կայք</label>
+                        </div>
+                    </div>
+            </div>
+            <div class="item">
+                <div class="item__question">Հասցե</div>
+                <input type="text" id="formAddress" name="address" class="item__textInput" placeholder="Your Answer">
+            </div>
+            <div class="item">
+                <div class="item__question">Հեռախոսահամար</div>
+                <input type="text" id="formPhone" name="phone" class="item__textInput" placeholder="Your Answer">
+            </div>
+            <div class="item">
+                <div class="item__question">Էլ-փոստ</div>
+                <input type="text" id="formEmail" name="email" class="item__textInput" placeholder="Your Answer">
+            </div>
+            <div class="item">
+                <div class="item__question">Վեբ կայք</div>
+                <input type="text" id="formWeb" name="webPage" class="item__textInput" placeholder="Your Answer">
+            </div>
+              <div class="item">
+                    <div class="item__question">Արդյոք լրատվամիջոցը ունի 
+                      ինքնակարգավորման մեխանիզմ և/կամ անդամակցում է 
+                      Դիտորդ մարմնին
+                    </div>
+                    <input type="button" class="item__button" id="b1" value="Այո" onclick="document.getElementById('b1').classList.toggle('active');">
+              </div>
+              <div class="item">
+                <div class="item__question">Լրատվամիջոցի նույնականացման 
+                    տվյալները հայտնի են և հրապարակային
+                  </div>
+                  <input type="button" class="item__button" id="b2" value="Այո" onclick="document.getElementById('b2').classList.toggle('active');">
+              </div>
+              <div class="item">
+                <div class="item__question">Խմբագրակազմը հայտնի է և հրապարակային
+                  </div>
+                  <input type="button" class="item__button" id="b3" value="Այո" onclick="document.getElementById('b3').classList.toggle('active');">
+              </div>
+              <div class="item">
+                <div class="item__question">Նյութերի հեղինակների անունները հրապարակվում են
+                </div>
+                <input type="button" class="item__button" id="b4" value="Այո" onclick="document.getElementById('b4').classList.toggle('active');">
+              </div>
+              <div class="submit__item">
+                  <input type="submit" name="submit" id="submit" value="Հաստատել" class="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="red" id="red">
+            <img src="./img/red.png" alt="">
+        </div>
+        <div class="yellow" id="yellow">
+            <img src="./img/yellow.png" alt="">
+        </div>
+        <div class="green"id="green" >
+            <img src="./img/green.png" alt="">
+        </div>
+        <script src="./js/script.js"></script>
+ 
+    </body>
+</html>
