@@ -76,7 +76,7 @@ html {
 }
 
 body {
-  background: url("../../img/background.jpg");
+  background: url("../img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
