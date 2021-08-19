@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded',function(){
         if(b3.classList.contains('active')){formData.append('B3','Այո');count++;}else{formData.append('B3','Ոչ')}
         if(b4.classList.contains('active')){formData.append('B4','Այո');count++;}else{formData.append('B4','Ոչ')}
         showBedge(count);
+        window.scrollBy(0,400);
         let response = await fetch('sendmail.php',{
             method: 'POST',
             body: formData

@@ -183,53 +183,46 @@ body {
 }
 
 .red {
-  position: fixed;
-  top: -5000px;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-color: rgba(255, 255, 255, 0.1);
+  display: none;
+  width: 200px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 .red img {
-  width: 50%;
+  width: 100px;
   margin: 20px auto;
-  display: block;
 }
 
 .yellow {
-  position: fixed;
-  top: -5000px;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-color: rgba(255, 255, 255, 0.1);
+  display: none;
+  width: 200px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 .yellow img {
-  width: 50%;
+  width: 100px;
   margin: 20px auto;
-  display: block;
 }
 
 .green {
-  position: fixed;
-  top: -5000px;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-color: rgba(255, 255, 255, 0.1);
+  display: none;
+  width: 200px;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 .green img {
-  width: 50%;
+  width: 100px;
   margin: 20px auto;
-  display: block;
 }
 
 .show {
-  top: 0;
+  display: block;
+}
+.show span {
+  color: #fff;
+}
+
+.bedge__container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
